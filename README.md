@@ -10,8 +10,8 @@ Welcome to my GitHub! I'm passionate about **MERN Stack, DevOps, and Mobile App 
 ### 💻 **Programming Languages:**  
 - C++ (DSA & Problem Solving)  
 - JavaScript (ES6+)  
-- Dart (Flutter Development)  
-- Bash (Shell Scripting)  
+- Bash (Shell Scripting)
+- GO
 
 ### 🌐 **Frontend Development:**  
 - HTML5, CSS3  
