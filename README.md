@@ -16,7 +16,6 @@ Welcome to my GitHub! I'm passionate about **MERN Stack, DevOps, and Mobile App 
 ### 🌐 **Frontend Development:**  
 - HTML5, CSS3  
 - JavaScript, React.js  
-- Flutter (Dart)  
 
 ### 🛠 **Backend Development:**  
 - Node.js, Express.js  
