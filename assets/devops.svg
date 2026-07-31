@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="0 0 1100 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dobg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/><stop offset="100%" stop-color="#0a0616"/>
+    </linearGradient>
+    <linearGradient id="doEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="doFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1420" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0e18" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="dogrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#141b30" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="480" rx="18" fill="url(#dobg)"/>
+  <rect width="1100" height="480" rx="18" fill="url(#dogrid)"/>
+
+  <g transform="translate(40,26)">
+    <rect x="0" y="0" width="26" height="18" rx="3" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <path d="M4 4 l6 5 l-6 5" stroke="#22c55e" stroke-width="2" fill="none"/>
+  </g>
+  <text x="90" y="42" font-family="'JetBrains Mono',monospace" font-size="16" fill="#22c55e" letter-spacing="3">// DEVOPS_PIPELINE.sh</text>
+  <line x1="40" y1="56" x2="1060" y2="56" stroke="#1e2947"/>
+
+  <g font-family="'JetBrains Mono',monospace">
+  <!-- 11 items, 4 cols -->
+  <g transform="translate(40,76)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Linux</text><text x="16" y="52" font-size="11" fill="#64748b">RHCSA Certified</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="180" height="4" rx="2" fill="#22c55e"/></g>
+
+  <g transform="translate(300,76)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Docker</text><text x="16" y="52" font-size="11" fill="#64748b">Multi-stage builds</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="150" height="4" rx="2" fill="#22d3ee"/></g>
+
+  <g transform="translate(560,76)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Kubernetes</text><text x="16" y="52" font-size="11" fill="#64748b">Orchestration basics</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="110" height="4" rx="2" fill="#60a5fa"/></g>
+
+  <g transform="translate(820,76)"><rect width="240" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Terraform</text><text x="16" y="52" font-size="11" fill="#64748b">IaC provisioning</text><rect x="16" y="70" width="208" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="100" height="4" rx="2" fill="#a78bfa"/></g>
+
+  <g transform="translate(40,200)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Ansible</text><text x="16" y="52" font-size="11" fill="#64748b">Config management</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="90" height="4" rx="2" fill="#f59e0b"/></g>
+
+  <g transform="translate(300,200)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">AWS (EC2/S3/IAM)</text><text x="16" y="52" font-size="11" fill="#64748b">Cloud Practitioner Cert</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="170" height="4" rx="2" fill="#f97316"/></g>
+
+  <g transform="translate(560,200)"><rect width="245" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">GitHub Actions</text><text x="16" y="52" font-size="11" fill="#64748b">CI/CD workflows</text><rect x="16" y="70" width="213" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="120" height="4" rx="2" fill="#22d3ee"/></g>
+
+  <g transform="translate(820,200)"><rect width="240" height="110" rx="12" fill="url(#doFill)" stroke="url(#doEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="18" fill="#e2e8f0" font-weight="700">Jenkins</text><text x="16" y="52" font-size="11" fill="#64748b">Pipeline basics</text><rect x="16" y="70" width="208" height="4" rx="2" fill="#1e293b"/><rect x="16" y="70" width="80" height="4" rx="2" fill="#94a3b8"/></g>
+
+  <g transform="translate(40,324)"><rect width="1020" height="110" rx="12" fill="url(#doFill)" stroke="#1e2947" stroke-width="1.2"/>
+    <text x="24" y="30" font-size="12" fill="#64748b" letter-spacing="2">SHELL &amp; VERSION CONTROL</text>
+    <text x="24" y="56" font-size="15" fill="#e2e8f0">Bash scripting for server monitoring · Git branching workflows · IAM policy design</text>
+    <text x="24" y="82" font-size="15" fill="#e2e8f0">S3 lifecycle rules · EC2 provisioning &amp; hardening</text>
+  </g>
+  </g>
+</svg>

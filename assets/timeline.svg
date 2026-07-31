@@ -1,0 +1,68 @@
+<svg width="100%" viewBox="0 0 1100 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/><stop offset="100%" stop-color="#0a0616"/>
+    </linearGradient>
+    <linearGradient id="tlLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="260" rx="18" fill="url(#tlbg)"/>
+  <text x="40" y="38" font-family="'JetBrains Mono',monospace" font-size="16" fill="#22d3ee" letter-spacing="3">// THE_JOURNEY.log</text>
+
+  <line x1="60" y1="140" x2="1040" y2="140" stroke="url(#tlLine)" stroke-width="2"/>
+  <circle cx="60" cy="140" r="5" fill="#22d3ee">
+    <animate attributeName="cx" values="60;1040;60" dur="9s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="11" fill="#cbd5e1" text-anchor="middle">
+    <!-- 9 nodes -->
+    <g transform="translate(60,140)">
+      <circle r="6" fill="#0a0616" stroke="#22d3ee" stroke-width="2"/>
+      <text y="-16">Student</text>
+    </g>
+    <g transform="translate(180,140)">
+      <circle r="6" fill="#0a0616" stroke="#60a5fa" stroke-width="2"/>
+      <text y="30">600+ DSA</text>
+      <text y="44">Problems</text>
+    </g>
+    <g transform="translate(300,140)">
+      <circle r="6" fill="#0a0616" stroke="#22d3ee" stroke-width="2"/>
+      <text y="-16">RHCSA</text>
+      <text y="-30">Certified</text>
+    </g>
+    <g transform="translate(420,140)">
+      <circle r="6" fill="#0a0616" stroke="#60a5fa" stroke-width="2"/>
+      <text y="30">Full Stack</text>
+      <text y="44">Development</text>
+    </g>
+    <g transform="translate(540,140)">
+      <circle r="6" fill="#0a0616" stroke="#a78bfa" stroke-width="2"/>
+      <text y="-16">Salesforce</text>
+      <text y="-30">Development</text>
+    </g>
+    <g transform="translate(660,140)">
+      <circle r="6" fill="#0a0616" stroke="#22d3ee" stroke-width="2"/>
+      <text y="30">Enterprise</text>
+      <text y="44">Projects</text>
+    </g>
+    <g transform="translate(780,140)">
+      <circle r="6" fill="#0a0616" stroke="#60a5fa" stroke-width="2"/>
+      <text y="-16">Backend</text>
+      <text y="-30">Engineering</text>
+    </g>
+    <g transform="translate(900,140)">
+      <circle r="6" fill="#0a0616" stroke="#a78bfa" stroke-width="2"/>
+      <text y="30">Cloud +</text>
+      <text y="44">System Design</text>
+    </g>
+    <g transform="translate(1020,140)">
+      <circle r="7" fill="#22d3ee">
+        <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text y="-16" fill="#22d3ee" font-weight="700">AI →</text>
+    </g>
+  </g>
+</svg>

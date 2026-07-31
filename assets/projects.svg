@@ -1,0 +1,79 @@
+<svg width="100%" viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pjbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/><stop offset="100%" stop-color="#0a0616"/>
+    </linearGradient>
+    <linearGradient id="pjFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1420" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0e18" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="thumb1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0891b2"/><stop offset="100%" stop-color="#0e2a4a"/></linearGradient>
+    <linearGradient id="thumb2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#1e1b4b"/></linearGradient>
+    <linearGradient id="thumb3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#16a34a"/><stop offset="100%" stop-color="#052e16"/></linearGradient>
+    <linearGradient id="thumb4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ea580c"/><stop offset="100%" stop-color="#431407"/></linearGradient>
+  </defs>
+  <rect width="1100" height="900" rx="18" fill="url(#pjbg)"/>
+  <text x="40" y="42" font-family="'JetBrains Mono',monospace" font-size="16" fill="#22d3ee" letter-spacing="3">// FEATURED_PROJECTS.registry</text>
+  <line x1="40" y1="56" x2="1060" y2="56" stroke="#1e2947"/>
+
+  <g font-family="'JetBrains Mono',monospace">
+
+  <!-- Card 1: SmartEdu ERP -->
+  <g transform="translate(40,80)">
+    <rect width="1020" height="180" rx="14" fill="url(#pjFill)" stroke="#22d3ee" stroke-width="1.1" opacity="0.97"/>
+    <rect x="16" y="16" width="220" height="148" rx="10" fill="url(#thumb1)"/>
+    <text x="126" y="98" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.85">SmartEdu</text>
+    <rect x="16" y="16" width="70" height="20" rx="10" fill="#0891b2" opacity="0.9"/><text x="26" y="30" font-size="10" fill="#fff">FEATURED</text>
+
+    <text x="256" y="42" font-size="20" fill="#e2e8f0" font-weight="700">SmartEdu ERP</text>
+    <text x="256" y="66" font-size="12" fill="#64748b">MERN · School management ERP with role-based dashboards</text>
+    <text x="256" y="90" font-size="11" fill="#93c5fd">React · Node.js · Express · MongoDB · JWT Auth</text>
+    <rect x="256" y="106" width="90" height="26" rx="13" fill="none" stroke="#22d3ee"/><text x="270" y="123" font-size="11" fill="#22d3ee">GitHub →</text>
+    <rect x="356" y="106" width="100" height="26" rx="13" fill="none" stroke="#a78bfa"/><text x="368" y="123" font-size="11" fill="#a78bfa">Live Demo →</text>
+    <circle cx="990" cy="30" r="5" fill="#22c55e"/><text x="960" y="34" font-size="10" fill="#4ade80" text-anchor="end">ACTIVE</text>
+  </g>
+
+  <!-- Card 2: Uber MERN Clone -->
+  <g transform="translate(40,280)">
+    <rect width="1020" height="180" rx="14" fill="url(#pjFill)" stroke="#a78bfa" stroke-width="1.1" opacity="0.97"/>
+    <rect x="16" y="16" width="220" height="148" rx="10" fill="url(#thumb2)"/>
+    <text x="126" y="98" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.85">Uber Clone</text>
+
+    <text x="256" y="42" font-size="20" fill="#e2e8f0" font-weight="700">Uber MERN Clone</text>
+    <text x="256" y="66" font-size="12" fill="#64748b">Real-time ride booking with live location tracking</text>
+    <text x="256" y="90" font-size="11" fill="#93c5fd">React · Node.js · Socket.io · MongoDB · Maps API</text>
+    <rect x="256" y="106" width="90" height="26" rx="13" fill="none" stroke="#22d3ee"/><text x="270" y="123" font-size="11" fill="#22d3ee">GitHub →</text>
+    <rect x="356" y="106" width="100" height="26" rx="13" fill="none" stroke="#a78bfa"/><text x="368" y="123" font-size="11" fill="#a78bfa">Live Demo →</text>
+    <circle cx="990" cy="30" r="5" fill="#22c55e"/><text x="960" y="34" font-size="10" fill="#4ade80" text-anchor="end">STABLE</text>
+  </g>
+
+  <!-- Card 3: Spotify Clone -->
+  <g transform="translate(40,480)">
+    <rect width="1020" height="180" rx="14" fill="url(#pjFill)" stroke="#22c55e" stroke-width="1.1" opacity="0.97"/>
+    <rect x="16" y="16" width="220" height="148" rx="10" fill="url(#thumb3)"/>
+    <text x="126" y="98" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.85">Spotify UI</text>
+
+    <text x="256" y="42" font-size="20" fill="#e2e8f0" font-weight="700">Spotify Clone</text>
+    <text x="256" y="66" font-size="12" fill="#64748b">Pixel-precise music streaming interface</text>
+    <text x="256" y="90" font-size="11" fill="#93c5fd">HTML · CSS · JavaScript</text>
+    <rect x="256" y="106" width="90" height="26" rx="13" fill="none" stroke="#22d3ee"/><text x="270" y="123" font-size="11" fill="#22d3ee">GitHub →</text>
+    <rect x="356" y="106" width="100" height="26" rx="13" fill="none" stroke="#a78bfa"/><text x="368" y="123" font-size="11" fill="#a78bfa">Live Demo →</text>
+    <circle cx="990" cy="30" r="5" fill="#22c55e"/><text x="960" y="34" font-size="10" fill="#4ade80" text-anchor="end">STABLE</text>
+  </g>
+
+  <!-- Card 4: GoFood -->
+  <g transform="translate(40,680)">
+    <rect width="1020" height="180" rx="14" fill="url(#pjFill)" stroke="#f59e0b" stroke-width="1.1" opacity="0.97"/>
+    <rect x="16" y="16" width="220" height="148" rx="10" fill="url(#thumb4)"/>
+    <text x="126" y="98" font-size="13" fill="#ffffff" text-anchor="middle" opacity="0.85">GoFood</text>
+
+    <text x="256" y="42" font-size="20" fill="#e2e8f0" font-weight="700">GoFood</text>
+    <text x="256" y="66" font-size="12" fill="#64748b">Food delivery platform — ordering &amp; tracking flow</text>
+    <text x="256" y="90" font-size="11" fill="#93c5fd">React · Node.js · MongoDB</text>
+    <rect x="256" y="106" width="90" height="26" rx="13" fill="none" stroke="#22d3ee"/><text x="270" y="123" font-size="11" fill="#22d3ee">GitHub →</text>
+    <rect x="356" y="106" width="100" height="26" rx="13" fill="none" stroke="#a78bfa"/><text x="368" y="123" font-size="11" fill="#a78bfa">Live Demo →</text>
+    <circle cx="990" cy="30" r="5" fill="#22c55e"/><text x="960" y="34" font-size="10" fill="#4ade80" text-anchor="end">STABLE</text>
+  </g>
+
+  </g>
+</svg>

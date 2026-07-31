@@ -1,0 +1,61 @@
+<svg width="100%" viewBox="0 0 1100 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cpbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/><stop offset="100%" stop-color="#0a0616"/>
+    </linearGradient>
+    <linearGradient id="cpFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1420" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0e18" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="260" rx="18" fill="url(#cpbg)"/>
+  <text x="40" y="38" font-family="'JetBrains Mono',monospace" font-size="16" fill="#22d3ee" letter-spacing="3">// CODING_PROFILES.link</text>
+  <line x1="40" y1="52" x2="1060" y2="52" stroke="#1e2947"/>
+
+  <g font-family="'JetBrains Mono',monospace">
+    <!-- 4 cards -->
+    <g transform="translate(40,72)">
+      <rect width="240" height="150" rx="12" fill="url(#cpFill)" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="30" cy="32" r="14" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+      <text x="54" y="30" font-size="11" fill="#64748b">PLATFORM</text>
+      <text x="54" y="46" font-size="14" fill="#e2e8f0" font-weight="700">GitHub</text>
+      <text x="20" y="90" font-size="12" fill="#93c5fd">@0001nsoni</text>
+      <rect x="20" y="106" width="200" height="4" rx="2" fill="#1e293b"/>
+      <rect x="20" y="106" width="150" height="4" rx="2" fill="#22d3ee"/>
+      <text x="20" y="132" font-size="10" fill="#475569">Open source · Integration projects</text>
+    </g>
+
+    <g transform="translate(300,72)">
+      <rect width="240" height="150" rx="12" fill="url(#cpFill)" stroke="#334155" stroke-width="1.2"/>
+      <rect x="20" y="20" width="24" height="24" rx="4" fill="none" stroke="#f59e0b" stroke-width="2"/>
+      <text x="54" y="30" font-size="11" fill="#64748b">PLATFORM</text>
+      <text x="54" y="46" font-size="14" fill="#e2e8f0" font-weight="700">LeetCode</text>
+      <text x="20" y="90" font-size="12" fill="#93c5fd">DSA Practice</text>
+      <rect x="20" y="106" width="200" height="4" rx="2" fill="#1e293b"/>
+      <rect x="20" y="106" width="170" height="4" rx="2" fill="#f59e0b"/>
+      <text x="20" y="132" font-size="10" fill="#475569">600+ problems solved</text>
+    </g>
+
+    <g transform="translate(560,72)">
+      <rect width="240" height="150" rx="12" fill="url(#cpFill)" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="30" cy="32" r="14" fill="none" stroke="#22c55e" stroke-width="2"/>
+      <text x="54" y="30" font-size="11" fill="#64748b">PLATFORM</text>
+      <text x="54" y="46" font-size="14" fill="#e2e8f0" font-weight="700">Codolio</text>
+      <text x="20" y="90" font-size="12" fill="#93c5fd">Unified DSA tracker</text>
+      <rect x="20" y="106" width="200" height="4" rx="2" fill="#1e293b"/>
+      <rect x="20" y="106" width="140" height="4" rx="2" fill="#22c55e"/>
+      <text x="20" y="132" font-size="10" fill="#475569">Cross-platform progress</text>
+    </g>
+
+    <g transform="translate(820,72)">
+      <rect width="240" height="150" rx="12" fill="url(#cpFill)" stroke="#334155" stroke-width="1.2"/>
+      <rect x="20" y="20" width="24" height="24" rx="12" fill="none" stroke="#60a5fa" stroke-width="2"/>
+      <text x="54" y="30" font-size="11" fill="#64748b">PLATFORM</text>
+      <text x="54" y="46" font-size="14" fill="#e2e8f0" font-weight="700">LinkedIn</text>
+      <text x="20" y="90" font-size="12" fill="#93c5fd">Professional network</text>
+      <rect x="20" y="106" width="200" height="4" rx="2" fill="#1e293b"/>
+      <rect x="20" y="106" width="190" height="4" rx="2" fill="#60a5fa"/>
+      <text x="20" y="132" font-size="10" fill="#475569">Open to opportunities</text>
+    </g>
+  </g>
+</svg>

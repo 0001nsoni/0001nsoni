@@ -1,0 +1,67 @@
+<svg width="100%" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sfbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050810"/><stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="sfEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00A1E0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="sfFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1420" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0a0e18" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="sfgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#141b30" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="560" rx="18" fill="url(#sfbg)"/>
+  <rect width="1100" height="560" rx="18" fill="url(#sfgrid)"/>
+
+  <!-- cloud glyph -->
+  <g transform="translate(40,30)">
+    <path d="M0 20 a12 12 0 0 1 12 -12 a16 16 0 0 1 30 4 a10 10 0 0 1 -2 20 h-30 a10 10 0 0 1 -10 -12z" fill="none" stroke="#00A1E0" stroke-width="2"/>
+  </g>
+  <text x="90" y="46" font-family="'JetBrains Mono',monospace" font-size="16" fill="#00A1E0" letter-spacing="3">// SALESFORCE_PLATFORM.exe</text>
+  <line x1="40" y1="60" x2="1060" y2="60" stroke="#1e2947"/>
+
+  <g font-family="'JetBrains Mono',monospace">
+  <!-- generate 12 feature cards, 4 cols x 3 rows -->
+  <!-- row y positions: 80,80,80,80 ; 220 ; 360 -->
+
+  <!-- Row1 -->
+  <g transform="translate(40,80)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">01</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Apex</text><text x="16" y="82" font-size="11" fill="#475569">Triggers · Classes</text><text x="16" y="98" font-size="11" fill="#475569">Async processing</text></g>
+
+  <g transform="translate(300,80)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">02</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">LWC</text><text x="16" y="82" font-size="11" fill="#475569">Lightning Web</text><text x="16" y="98" font-size="11" fill="#475569">Components</text></g>
+
+  <g transform="translate(560,80)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">03</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">SOQL / SOSL</text><text x="16" y="82" font-size="11" fill="#475569">Query optimization</text><text x="16" y="98" font-size="11" fill="#475569">Search &amp; selective filters</text></g>
+
+  <g transform="translate(820,80)"><rect width="240" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">04</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Flows</text><text x="16" y="82" font-size="11" fill="#475569">Record-triggered</text><text x="16" y="98" font-size="11" fill="#475569">Screen &amp; scheduled</text></g>
+
+  <!-- Row2 -->
+  <g transform="translate(40,220)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">05</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Batch Apex</text><text x="16" y="82" font-size="11" fill="#475569">Large data volumes</text><text x="16" y="98" font-size="11" fill="#475569">Start / Execute / Finish</text></g>
+
+  <g transform="translate(300,220)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">06</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Queueable /</text><text x="16" y="80" font-size="19" fill="#e2e8f0" font-weight="700">Future</text><text x="16" y="102" font-size="11" fill="#475569">Async chaining</text></g>
+
+  <g transform="translate(560,220)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">07</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Platform Events</text><text x="16" y="82" font-size="11" fill="#475569">Event-driven</text><text x="16" y="98" font-size="11" fill="#475569">integration patterns</text></g>
+
+  <g transform="translate(820,220)"><rect width="240" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">08</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Governor Limits</text><text x="16" y="82" font-size="11" fill="#475569">Bulkification</text><text x="16" y="98" font-size="11" fill="#475569">&amp; limit-aware design</text></g>
+
+  <!-- Row3 -->
+  <g transform="translate(40,360)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">09</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Validation Rules</text><text x="16" y="82" font-size="11" fill="#475569">Data integrity at</text><text x="16" y="98" font-size="11" fill="#475569">the platform layer</text></g>
+
+  <g transform="translate(300,360)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">10</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Reports &amp;</text><text x="16" y="80" font-size="19" fill="#e2e8f0" font-weight="700">Dashboards</text></g>
+
+  <g transform="translate(560,360)"><rect width="245" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">11</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">REST APIs &amp;</text><text x="16" y="80" font-size="19" fill="#e2e8f0" font-weight="700">Integrations</text><text x="16" y="102" font-size="11" fill="#475569">Custom Metadata driven</text></g>
+
+  <g transform="translate(820,360)"><rect width="240" height="120" rx="12" fill="url(#sfFill)" stroke="url(#sfEdge)" stroke-width="1.2"/><text x="16" y="30" font-size="13" fill="#64748b" letter-spacing="2">12</text><text x="16" y="58" font-size="19" fill="#e2e8f0" font-weight="700">Security &amp;</text><text x="16" y="80" font-size="19" fill="#e2e8f0" font-weight="700">Sharing</text><text x="16" y="102" font-size="11" fill="#475569">Approval processes</text></g>
+
+  </g>
+
+  <!-- animated data pulse line across bottom -->
+  <line x1="40" y1="500" x2="1060" y2="500" stroke="#1e2947" stroke-width="1"/>
+  <circle cx="40" cy="500" r="4" fill="#00A1E0">
+    <animate attributeName="cx" values="40;1060;40" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="40" y="530" font-family="'JetBrains Mono',monospace" font-size="12" fill="#475569">Enterprise Salesforce Developer · Order Management &amp; Promotion Engine integrations</text>
+</svg>
