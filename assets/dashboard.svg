@@ -90,7 +90,6 @@
       <text x="46" y="35" font-size="12" fill="#64748b" letter-spacing="2">STATUS</text>
       <text x="20" y="75" font-size="20" fill="#4ade80" font-weight="700">Open to Work</text>
       <text x="20" y="98" font-size="14" fill="#94a3b8">MuleSoft/Salesforce Dev</text>
-      <text x="20" y="122" font-size="14" fill="#94a3b8">Jr. DevOps · Quant/HFT</text>
     </g>
 
   </g>
@@ -101,9 +100,9 @@
     <g transform="translate(40,470)">
       <rect width="1020" height="150" rx="14" fill="url(#cardFill)" stroke="#1e2947" stroke-width="1.2"/>
       <text x="24" y="34" fill="#64748b" font-size="11" letter-spacing="2">PROGRAMMING</text>
-      <text x="24" y="56">Java · JavaScript · C++ · Apex · SOQL · SQL · Bash</text>
+      <text x="24" y="56">JavaScript · C++ · Apex · SOQL · SQL · Bash</text>
       <text x="24" y="80" fill="#64748b" font-size="11" letter-spacing="2">INTEGRATION / BACKEND</text>
-      <text x="24" y="102">MuleSoft (Mule 4, DataWeave 2.0, RAML, MUnit) · Node.js · Express · REST APIs</text>
+      <text x="24" y="102">MuleSoft · Node.js · Express · REST APIs</text>
       <text x="530" y="34" fill="#64748b" font-size="11" letter-spacing="2">SALESFORCE</text>
       <text x="530" y="56">Apex · LWC · Flows · Batch/Queueable Apex · Platform Events</text>
       <text x="530" y="80" fill="#64748b" font-size="11" letter-spacing="2">DEVOPS / CLOUD</text>
